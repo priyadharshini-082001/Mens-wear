@@ -175,34 +175,6 @@ header {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 section {
   overflow: hidden;
 }
@@ -389,6 +361,8 @@ li {
   background: #12065b;
 }
 
+
+
 /* ================= PROMO SECTION ================= */
 .promo_section {
   padding: 50px 0;
@@ -455,24 +429,6 @@ li {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .color {
   padding: 8px;
   border: 1px solid #d1d1d1;
@@ -485,7 +441,7 @@ li {
 }
 
 .page-top-banner {
-  background: white;
+  background: rgb(255, 255, 255);
   text-align: center;
   background-size: cover !important;
   background-repeat: no-repeat !important;
@@ -1542,9 +1498,7 @@ PADDING TOP
   padding-top: 15px;
 }
 
-.pt-20 {
-  padding-top: 20px;
-}
+
 
 .pt-30 {
   padding-top: 30px;
@@ -1720,9 +1674,6 @@ PADDING BOTTOM
   padding-bottom: 15px;
 }
 
-.pb-20 {
-  padding-bottom: 20px;
-}
 
 .pb-30 {
   padding-bottom: 30px;
