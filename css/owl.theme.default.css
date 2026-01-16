@@ -11,7 +11,7 @@
   text-align: center;
   -webkit-tap-highlight-color: transparent; }
   .owl-theme .owl-nav [class*='owl-'] {
-    color: #FFF;
+    color: #ffffff;
     font-size: 14px;
   
     padding: 4px 7px;
@@ -47,3 +47,4 @@
       border-radius: 30px; }
     .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
       background: #869791; }
+

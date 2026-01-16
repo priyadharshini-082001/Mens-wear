@@ -26,130 +26,22 @@
 </head>
 <body>
     <header>
+   
+<!-- Popup Overlay -->
+<div class="popup-overlay" id="popup">
+  <div class="popup-box">
+    <button class="popup-close" id="closePopup">&times;</button>
+
+    <h2>🔥 Special Offer</h2>
+    <p>Flat <strong>30% OFF</strong> on Men’s Wear</p>
+
+    <img src="images/img/ad.svg" alt="Offer" class="popup-img">
+
+    <a href="contact.html" class="popup-btn">Shop Now</a>
+  </div>
+</div>
         <div class="top_menu">
-        
-                <!--<nav class="navbar">
-                    <div class="container-fluid">
-                    <a class="navbar-brand logo" href="index.html"><img src="images/main-logo-CS.png" alt=""></a>
-                    <form class="d-flex">
-                        <input class="form-control" type="search" placeholder="Search Keyword, category, brand or part" aria-label="Search">
-                        <button class="btn submitbtn" type="submit"><i class="fas fa-search"></i></button>
-                    </form>
-                    <ul class="top_menu_info">
-                        <li>
-                            <button type="button" class="btn mobile-menu-search-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                                <i class="far fa-search"></i>
-                            </button>
-                    
-                            <div class="modal top-mobile-search-modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered modal-lg">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h3 class="modal-title fs-5" id="staticBackdropLabel">Search</h3>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <form action="#" class="modal-search">
-                                                <div class="input-group mb-4 mt-3">
-                                                    <input type="search" class="form-control" placeholder="search course" aria-label="Recipient's username" aria-describedby="button-addon2">
-                                                    <button class="btn primary-button" value="search" type="button" id="button-addon2">Search</button>
-                                                </div>
-                                                <h3>Top Search</h3>
-                                                <ul>
-                                                    <li><button class="top-search">T-Shart</button></li>
-                                                    <li><button class="top-search">Sari</button></li>
-                                                    <li><button class="top-search">Shart</button></li>
-                                                    <li><button class="top-search">Baby Combo</button></li>
-                                                    <li><button class="top-search">Jacket</button></li>
-                                                </ul>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li> --->
-                        <!-- <li>
-                            <div class="dropdown user">
-                                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                <div class="image">
-                                    <img src="./images/user.1.jpg" alt="user">
-                                </div>
-                                <span class="user-name">User</span>
-                                </button>
-                                <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="user-dashboard.html"><span class="icons"><i class="fal fa-user-alt"></i></span>My Account</a></li>
-                                <li><a class="dropdown-item" href="user-account.html"><span class="icons"><i class="fal fa-user-cog"></i></span>Setting</a></li>
-                                <li><a class="dropdown-item" href="#"><span class="icons"><i class="fal fa-sign-out-alt"></i></span>Log Out</a></li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li>
-                            <a href="login.html"><i class="fas fa-user"></i><span>Sign In</span></a>
-                        </li>
-                        <li>
-                            <a class="wishlist-btn" href="wishlist.html"><i class="fal fa-heart"></i><span class="wishlist_number">3</span><span>Wish List</span></a>
-                        </li>
-                
-                        <li>
-                            <button class="cart_btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i class="fad fa-shopping-bag"></i><span class="cart_number">2</span></button>
-                            <div class="offcanvas offcanvas-end offcanvas-add-card" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
-                                <div class="offcanvas-header justify-content-between shoping-cart">
-                                    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Shopping cart</h5>
-                                    <button type="button" class="btn-exit" data-bs-dismiss="offcanvas" aria-label="Close"><span><i class="fal fa-times"></i></span></button>
-                                </div>
-                                <div class="offcanvas-body">
-                                    <div class="card-body-top">
-                                        <div class="add-card-item">
-                                            <a href="product-update.html" class="item-img">
-                                                <img src="images/top-trend3.png" alt="">
-                                            </a>
-                                            <div class="item-details">
-                                                <a href="product-update.html">best t-shart Collectionbest t-shart Collection</a>
-                                                <p class="add-to-card-quantity d-flex">
-                                                    Quantity: <span class="quantity-number">1</span>
-                                                </p>
-                                                <p class="add-to-card-price">
-                                                    $69.9
-                                                </p>
-                                            </div>
-                                            <button type="button" class="item-delet"><span><i class="fal fa-times"></i></span></button>
-                                        </div>
-                                        <div class="add-card-item">
-                                            <a href="product-update.html" class="item-img">
-                                                <img src="images/top-trend2.png" alt="">
-                                            </a>
-                                            <div class="item-details">
-                                                <a href="product-update.html">best t-shart Collection</a>
-                                                <p class="add-to-card-quantity d-flex">
-                                                    Quantity: <span class="quantity-number">1</span>
-                                                </p>
-                                                <p class="add-to-card-price">
-                                                    $69.9
-                                                </p>
-                                            </div>
-                                            <button type="button" class="item-delet"><span><i class="fal fa-times"></i></span></button>
-                                        </div>
-                                    </div>
-                                    <div class="card-body-bottom">
-                                        <h5 class="promo-code">Promo Codes: <input class="form-fild" type="text"></h5>
-                                        <div class="card-cost">
-                                            <h5>Shping :<span>$0.0</span></h5>
-                                            <h5>Total :<span>$209.4</span></h5>
-                                        </div>
-                                        <div class="btn-group">
-                                            <a href="view-cart.html"><span><i class="fal fa-shopping-cart"></i></span>View Cart</a>
-                                            <a href="checkout.html"><span><i class="fal fa-sign-out"></i></span>Checkout</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-    
-                    </ul>
-                    </div>
-                </nav>
-            </div>
-        </div>   -->
+
         <div class="main_menu">
             <div class="container">
                 <nav class="navbar navbar-expand-lg ">
@@ -165,33 +57,32 @@
                             </div>
                             <div class="offcanvas-body">
                            <ul class="navbar-nav mb-2 mb-lg-0">
-                                     <li class="nav-item">
-                                        <a class="dropdown-item" href="#">Home</a>
+                                        <li class="nav-item">
+                                        <a class="dropdown-item" href="index.html">Home</a>
                                     </li>
                                      <li class="nav-item">
-                                        <a class="dropdown-item" href="#">About</a>
+                                        <a class="dropdown-item" href="about-us.html">About</a>
                                     </li>
                                     <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" href="#" id="all-storenavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                            Collections
                                         </a>
                                         <div class="dropdown-menu" aria-labelledby="all-storenavbarDropdown">
-                                            <ul>
-                                            
-                                                <li><a class="dropdown-item" href="#">Fabric</a></li>
-                                                <li><a class="dropdown-item" href="#">Men</a></li>
-                                                <li><a class="dropdown-item" href="#">Women</a></li>
-                                                <li><a class="dropdown-item" href="#">Kids</a></li>
+                                               <ul>
+                                                <li><a class="dropdown-item" href="new-arival.html">New Arrivals</a></li>
+                                                <li><a class="dropdown-item" href="trending.html">Top Trending</a></li>
+                                                <li><a class="dropdown-item" href="latest.html">Latest offers</a></li>
+                                                 <li><a class="dropdown-item" href="fabric.html">Fabric</a></li>
                                             </ul>
                                         </div>
                                     </li>
                                     
                                 
                                     <li class="nav-item">
-                                        <a class="dropdown-item" href="#">Season</a>
+                                        <a class="dropdown-item" href="kids-shop.html">Kids</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">contact</a>
+                                        <a class="dropdown-item" href="contact.html">contact</a>
                                     </li>
                                 </ul>
                             </div>
@@ -200,9 +91,12 @@
                 </nav>
             </div>
         </div>
+        
     </header>
     <!-- end header  -->
-
+      <div class="gradient-marquee">
+  <span>🔥 Flat 30% OFF • New Arrivals • WhatsApp Orders Available • Free Delivery Above ₹1000 🔥• New Festive Collection • WhatsApp Order Available ✨ • Visit Store Today 🔥</span>
+</div>
     <section class="header-cursol pt-20 pb-20">
                 <div class="carousel_banner">
             <div class="slider_area">
@@ -219,46 +113,11 @@
                 </div>
             </div>
         </div>
+  
+
+
     </section>
-    <!-- end header-cursol-section  -->
-<!----- <section class="about-us" style="     background: linear-gradient(
-      rgba(255, 255, 255, 0.5),
-      rgb(218, 224, 244)
-    );
-    background-blend-mode: overlay;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;">
-  <div class="about">
-    <div class="about-img">
-      <a href="product-update.html">
-        <img src="images/WhatsApp Image 2026-01-10 at 6.56.42 PM (1) 1.svg" alt="About Image">
-      </a>
-    </div>
 
-    <div class="about-text">
-      <h1>About Us</h1>
-    
-<h2>GENZ MENS WEAR </h2> <h6>Style For Next Generation</h6><h7 style="color: rgb(7, 7, 86);"> Address - SRN Complex, Kuppam Main Road Patchur 635854 </h7>
-
-<p></p> stylish, comfortable, and affordable men’s fashion in Patchur.
-We believe that every man deserves to look confident and fashionable, no matter the occasion. Our shop offers
-a carefully selected range of trendy casual wear, formal outfits, and everyday essentials designed to suit the
-modern generation.At GENZ Mens Wear, quality and customer satisfaction come first. We focus on the latest styles, perfect fits, 
-and durable fabrics to ensure you always step out with confidence. Whether you’re looking for daily wear or
-something special,our collection is made to match your lifestyle.Visit our new store at Patchur and experience fashion that defines your style.
-      </p>
-    <div class="instagram-box">
-  <a href="https://www.instagram.com/gen.z_mens?igsh=MTJqbHNrdnd2Y21rNg==" target="_blank">
-    <i class="fab fa-instagram"></i>
-    <span>Follow us on Instagram</span>
-    <small>@gen.z_mens</small>
-  </a>
-</div>
-
-    </div>
-  </div>
-</section>  -->
 
 <section class="about-unique">
   <div class="about-wrapper">
@@ -267,7 +126,7 @@ something special,our collection is made to match your lifestyle.Visit our new s
       <a href="#">
         <img src="images/WhatsApp Image 2026-01-10 at 6.56.42 PM (1) 1.svg" alt="GENZ Mens Wear">
       </a>
-      <span class="brand-tag">Since 2026</span>
+      <span class="brand-tag">Start 2026</span>
     </div>
 
     <div class="about-content">
@@ -648,7 +507,7 @@ something special,our collection is made to match your lifestyle.Visit our new s
                 </div>
                 <div class="col-md-12 col-sm-12">
                     <div class="category-img">
-                        <img src="images/img/last 3.jpg" alt="" style="width: 500px;height: 400px;">
+                        <img src="images/img/3rd item.svg" alt="" style="width: 500px;height: 400px;">
                         <a href="#" class="see-all-btn">See All</a>
                     </div>
                 </div>
@@ -657,136 +516,6 @@ something special,our collection is made to match your lifestyle.Visit our new s
     </section>
     <!-- end home-category  -->
 
- <!--- <section class="subscribe mt-40">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="subscribe-now pt-40 pb-40">
-                    <h2><span><i class="fal fa-shopping-bag"></i></span>STAY TUNED</h2>
-                    <p>Subscribe to our newsletter and stay updated.<br>To be able to see our NEW ARRIVAL first and to get our Special Offers</p>
-                    <form action="#" class="d-flex">
-                        <input type="email" name="subscribe" id="subscribe" placeholder="Enter Email Address" required>
-                        <button type="submit" value="subscribe">subscribe</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>  --->
-
-
-
-
-
-    <!-- end subscribe section  -->
-
-   <!--- <section class="customer_section pt-60 pb-40">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2 class="section_titile">
-                    <span> What our customers think</span>
-                    </h2>
-                </div>
-                <div class="col-md-12">
-                    <div class="customer_avarage">
-                        <p><b>Excellent</b></p>
-                        <ul>
-                            <li><i class="fas fa-star"></i></li>
-                            <li><i class="fas fa-star"></i></li>
-                            <li><i class="fas fa-star"></i></li>
-                            <li><i class="fas fa-star"></i></li>
-                            <li><i class="fas fa-star-half-alt"></i></li>
-                        </ul>
-                        <p> <b>4.8</b> based on <b>230,440</b> reviews</p>
-                    </div>
-                </div>
-                <div class="col-md-12">
-                    <div class="customer_slider owl-carousel owl-theme">
-                        <div class="customer_item">
-                            <div class="customer_name">
-                                <h4>John Doe</h4>
-                                <ul>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                </ul>
-                            </div>
-                            <div class="varified">
-                                <i class="fas fa-badge-check"></i>
-                                <span>Verified Customer</span>
-                            </div>
-                            <div class="feedback">
-                                <p>Delivered next day which was great. Product easy to fit only took a couple of minutes, prefect fit. </p>
-                                <span>11 hours ago.</span>
-                            </div>
-                        </div>
-                        <div class="customer_item">
-                            <div class="customer_name">
-                                <h4>John Doe</h4>
-                                <ul>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                </ul>
-                            </div>
-                            <div class="varified">
-                                <i class="fas fa-badge-check"></i>
-                                <span>Verified Customer</span>
-                            </div>
-                            <div class="feedback">
-                                <p>Delivered next day which was great. Product easy to fit only took a couple of minutes, prefect fit. </p>
-                                <span>11 hours ago.</span>
-                            </div>
-                        </div>
-                        <div class="customer_item">
-                            <div class="customer_name">
-                                <h4>John Doe</h4>
-                                <ul>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                </ul>
-                            </div>
-                            <div class="varified">
-                                <i class="fas fa-badge-check"></i>
-                                <span>Verified Customer</span>
-                            </div>
-                            <div class="feedback">
-                                <p>Delivered next day which was great. Product easy to fit only took a couple of minutes, prefect fit. </p>
-                                <span>11 hours ago.</span>
-                            </div>
-                        </div>
-                        <div class="customer_item">
-                            <div class="customer_name">
-                                <h4>John Doe</h4>
-                                <ul>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                </ul>
-                            </div>
-                            <div class="varified">
-                                <i class="fas fa-badge-check"></i>
-                                <span>Verified Customer</span>
-                            </div>
-                            <div class="feedback">
-                                <p>Delivered next day which was great. Product easy to fit only took a couple of minutes, prefect fit. </p>
-                                <span>11 hours ago.</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> ---->
-    <!-- end customer_section  -->
 
    <section class="banner_section bottom_banner pt-40 pb-40">
   <div class="container">
@@ -812,7 +541,7 @@ something special,our collection is made to match your lifestyle.Visit our new s
         <div class="bar_item">
           <i class="fas fa-store"></i>
           <h5>Trusted Stores</h5>
-          <p>Serving customers through multiple outlets.</p>
+          <p> 📍 SRN Complex, Kuppam Main Road, Patchur – 635854</p>
         </div>
       </div>
 
@@ -849,113 +578,137 @@ something special,our collection is made to match your lifestyle.Visit our new s
 </section>
     <!-- end banner_section  -->
 
-    <footer style="     background: linear-gradient(
-      rgba(255, 255, 255, 0.5),
-      rgb(218, 224, 244)
-    );
-    background-blend-mode: overlay;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; color: black;">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-3 col-sm-6">
-                    <div class="footer_title">
-                        <h2>Page's</h2>
-                        <ul>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">FAQ</a></li>
-                            <li><a href="#">404 Page</a></li>
-                            <li><a href="#">Coming Soon</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Cart</a></li>
-                            <li><a href="#">Wishlist</a></li>
-                        </ul>
-                    </div>                
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6">
-                    <div class="footer_title">
-                        <h2> Customer Services</h2>
-                        <ul>
-                            <li><a href="#">My Account</a></li>
-                            <li><a href="#">Delivery Information</a></li>
-                            <li><a href="#">Our Apps</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Sign In</a></li>
-                            <li><a href="#">Register</a></li>
-                        </ul>
-                    </div>                
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6">
-                    <div class="footer_title">
-                        <h2>Categories</h2>
-                        <ul>
-                            <li><a href="#">Men</a></li>
-                            <li><a href="#">Women</a></li>
-                            <li><a href="#">Kids</a></li>
-                            <li><a href="#">Event</a></li>
-                            <li><a href="#">Top Trend</a></li>
-                            <li><a href="#">New Collection</a></li>
-                            <li><a href="#">Season Sale</a></li>
-                        </ul>
-                    </div> 
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6">
-                    <div class="footer_title">
-                    <h2>Legal Notices</h2>
-                        <ul>
-                            <li><a href="#">Privacy Notice</a></li>
-                            <li><a href="#">Newsletter</a></li>
-                            <li><a href="#">Careers</a></li>
-                            <li><a href="#">Location</a></li>
-                            <li><a href="#">Terms & Conditions</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+<footer class="site-footer">
+  <div class="container">
+    <div class="row">
+
+      <!-- Pages -->
+      <div class="col-lg-3 col-md-3 col-sm-6 footer-animate">
+        <div class="footer_title">
+          <h2>Page's</h2>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Collections</a></li>
+            <li><a href="#">Season</a></li>
+            <li><a href="#">Coming Soon</a></li>
+            <li><a href="#">Contact</a></li>
+
+          </ul>
         </div>
-       <!--- <div class="footer_bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="footer_text mb-20">
-                            <h3>Download our App & then shop on the go</h3>
-                            <div class="appstore d-flex">
-                                <a href="#"><img src="images/apple-store.png" alt=""></a>
-                                <a href="#"><img src="images/google-play.png" alt=""></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="follow_us mb-20">
-                            <h4>Follow us</h4>
-                            <ul>
-                                <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="32" viewBox="0 0 448 512"><path fill="currentColor" d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48c27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48"/></svg></a></li>
-                                <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="32" viewBox="0 0 448 512"><path fill="currentColor" d="M64 32C28.7 32 0 60.7 0 96v320c0 35.3 28.7 64 64 64h320c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64zm297.1 84L257.3 234.6L379.4 396h-95.6L209 298.1L123.3 396H75.8l111-126.9L69.7 116h98l67.7 89.5l78.2-89.5zm-37.8 251.6L153.4 142.9h-28.3l171.8 224.7h26.3z"/></svg></a></li>
-                                <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="32" viewBox="0 0 448 512"><path fill="currentColor" d="M224 202.66A53.34 53.34 0 1 0 277.36 256A53.38 53.38 0 0 0 224 202.66m124.71-41a54 54 0 0 0-30.41-30.41c-21-8.29-71-6.43-94.3-6.43s-73.25-1.93-94.31 6.43a54 54 0 0 0-30.41 30.41c-8.28 21-6.43 71.05-6.43 94.33s-1.85 73.27 6.47 94.34a54 54 0 0 0 30.41 30.41c21 8.29 71 6.43 94.31 6.43s73.24 1.93 94.3-6.43a54 54 0 0 0 30.41-30.41c8.35-21 6.43-71.05 6.43-94.33s1.92-73.26-6.43-94.33ZM224 338a82 82 0 1 1 82-82a81.9 81.9 0 0 1-82 82m85.38-148.3a19.14 19.14 0 1 1 19.13-19.14a19.1 19.1 0 0 1-19.09 19.18ZM400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48m-17.12 290c-1.29 25.63-7.14 48.34-25.85 67s-41.4 24.63-67 25.85c-26.41 1.49-105.59 1.49-132 0c-25.63-1.29-48.26-7.15-67-25.85s-24.63-41.42-25.85-67c-1.49-26.42-1.49-105.61 0-132c1.29-25.63 7.07-48.34 25.85-67s41.47-24.56 67-25.78c26.41-1.49 105.59-1.49 132 0c25.63 1.29 48.33 7.15 67 25.85s24.63 41.42 25.85 67.05c1.49 26.32 1.49 105.44 0 131.88"/></svg></a></li>
-                                <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="32" viewBox="0 0 448 512"><path fill="currentColor" d="m282 256.2l-95.2-54.1v108.2zM384 32H64C28.7 32 0 60.7 0 96v320c0 35.3 28.7 64 64 64h320c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64m14.4 136.1c7.6 28.6 7.6 88.2 7.6 88.2s0 59.6-7.6 88.1c-4.2 15.8-16.5 27.7-32.2 31.9C337.9 384 224 384 224 384s-113.9 0-142.2-7.6c-15.7-4.2-28-16.1-32.2-31.9c-7.6-28.6-7.6-88.2-7.6-88.2s0-59.7 7.6-88.2c4.2-15.8 16.5-28.2 32.2-32.4C110.1 128 224 128 224 128s113.9 0 142.2 7.7c15.7 4.2 28 16.6 32.2 32.4"/></svg></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="weaccept">
-                            <h4>We Accept</h4>
-                            <img src="images/paypal.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> --->
-        <div class="footer_end pt-20 pb-20">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <p>Copyright &copy;  2025 <a href="#">Cloth-Shop</a> All Rights Reserved.</p>
-                    </div>
-                </div>
-            </div>
+      </div>
+
+      <!-- Customer Services -->
+      <div class="col-lg-3 col-md-3 col-sm-6 footer-animate delay-1">
+        <div class="footer_title">
+          <h2>Customer Services</h2>
+          <ul>
+            <li><a href="#">Fast Delivery</a></li>
+            <li><a href="#">24/7 Support</a></li>
+            <li><a href="#">Trusted store</a></li>
+            <li><a href="#">Easy Payment Option</a></li>
+          </ul>
         </div>
-    </footer> 
+      </div>
+
+      <!-- Categories -->
+      <div class="col-lg-3 col-md-3 col-sm-6 footer-animate delay-2">
+        <div class="footer_title">
+          <h2>Categories</h2>
+          <ul>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">Kids</a></li>
+            <li><a href="#">Event</a></li>
+            <li><a href="#">Top Trend</a></li>
+            <li><a href="#">New Collection</a></li>
+            <li><a href="#">Season Sale</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- WhatsApp -->
+      <div class="col-lg-3 col-md-3 col-sm-6 footer-animate delay-3">
+        <div class="footer_title whatsapp">
+          <h2>WhatsApp</h2>
+
+          <div class="shop-info">
+            <p>
+              <i class="fas fa-map-marker-alt location-icon"></i>
+              <a href="https://www.google.com/maps/search/?api=1&query=Chennai+Tamil+Nadu"
+                 target="_blank">
+                 SRN Complex, Kuppam Main Road, Patchur – 635854
+              </a>
+            </p>
+
+            <p>
+             
+              <a href="https://www.instagram.com/gen.z_mens?igsh=MTJqbHNrdnd2Y21rNg==" 
+         class="instagram-btn" target="_blank">
+        <i class="fab fa-instagram"></i>
+       @gen.z_mens
+      </a>
+            </p>
+
+            <p>
+              <i class="fas fa-phone-alt phone-icon"></i>
+              <a href="tel:+919999999999">
+                +916369402212 - RamRaj
+              </a>
+            </p>
+          </div>
+
+          <p class="chat-text">
+            <i class="fab fa-whatsapp"></i>
+            Chat with us on WhatsApp
+          </p>
+
+          <div class="category-img">
+            <a href="https://wa.me/919999999999" target="_blank">
+              <img src="images/img/qr code.svg" alt="WhatsApp QR" width="100px; height:80px; ">
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="footer_end" style="background-color: rgb(8, 8, 95);">
+
+    <div class="container">
+      <p style="color: aliceblue; ">Copyright © 2026 <a href="#" style="color: rgb(156, 156, 238);">GENZ MENS WEAR</a> All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+
+<script>
+  const popup = document.getElementById("popup");
+  const closeBtn = document.getElementById("closePopup");
+
+  // Show popup after 3 seconds (only once per visit)
+  if (!sessionStorage.getItem("popupShown")) {
+    setTimeout(() => {
+      popup.style.display = "flex";
+      sessionStorage.setItem("popupShown", "true");
+    }, 3000);
+  }
+
+  // Close popup
+  closeBtn.addEventListener("click", () => {
+    popup.style.display = "none";
+  });
+
+  // Close on outside click
+  popup.addEventListener("click", (e) => {
+    if (e.target === popup) {
+      popup.style.display = "none";
+    }
+  });
+</script>
+
+
+
     <!-- end footer -->
 
     <!-- js link here -->
