@@ -2530,126 +2530,135 @@ header .top_menu ul.top_menu_info li:last-child {
 
 
 /* ================= SUBSCRIBE SECTION ================= */
-/* ================= SUBSCRIBE SECTION ================= */
-.subscribe {
-  padding: 70px 0;              /* Medium height */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: radial-gradient(circle at top, #071952, #020024 70%);
+/* ================= UNIQUE SHOP NOW SECTION ================= */
+.shop-now{
   position: relative;
+  padding: 120px 20px;
+  background: url("../images/order\ now\ img.jpg") center/cover no-repeat;
   overflow: hidden;
 }
 
-/* Decorative Glow Orbs */
-.subscribe::before,
-.subscribe::after {
-  content: "";
-  position: absolute;
-  width: 240px;
-  height: 240px;
-  background: linear-gradient(135deg, #1fbf9f, #12a4d9);
-  filter: blur(110px);
-  opacity: 0.35;
-  z-index: 0;
+/* animated fabric light waves */
+.shop-now::before{
+  content:"";
+  position:absolute;
+  top:-50%;
+  left:-50%;
+  width:200%;
+  height:200%;
+  background:
+    radial-gradient(circle at 30% 30%, rgba(31,191,159,0.15), transparent 40%),
+    radial-gradient(circle at 70% 70%, rgba(18,164,217,0.18), transparent 40%);
+  animation: waveMove 14s linear infinite;
 }
 
-.subscribe::before {
-  top: 5%;
-  left: 12%;
+/* floating dots */
+.shop-now::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background-image: radial-gradient(rgba(255,255,255,0.12) 1px, transparent 1px);
+  background-size: 25px 25px;
+  animation: dotMove 25s linear infinite;
+  opacity:0.3;
 }
 
-.subscribe::after {
-  bottom: 5%;
-  right: 12%;
+/* content card */
+.shop-now .subscribe-now{
+  position:relative;
+  z-index:2;
+  max-width:720px;
+  margin:auto;
+  padding:70px 55px;
+  text-align:center;
+  border-radius:36px;
+  background: rgba(255,255,255,0.06);
+  backdrop-filter: blur(18px);
+  box-shadow:
+    0 40px 80px rgba(0,0,0,0.45),
+    inset 0 0 40px rgba(255,255,255,0.05);
+  animation: cardFloat 6s ease-in-out infinite;
 }
 
-/* ================= SUBSCRIBE CARD ================= */
-.subscribe-now {
-  position: relative;
-  z-index: 1;
-  background: rgba(255, 255, 255, 0.08);
-  backdrop-filter: blur(14px);
-  border-radius: 24px;
-  padding: 50px 55px;
-  max-width: 620px;
-  width: 100%;
-  text-align: center;
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  box-shadow: 0 28px 60px rgba(0, 0, 0, 0.6);
+/* heading */
+.shop-now h2{
+  font-size:46px;
+  color:#000000;
+  margin-bottom:22px;
+  letter-spacing:1px;
 }
 
-/* Gradient Border */
-.subscribe-now::before {
-  content: "";
-  position: absolute;
-  inset: -1px;
-  border-radius: 24px;
-  background: linear-gradient(135deg, #1fbf9f, #12a4d9, #071952);
-  z-index: -1;
-  opacity: 0.55;
+/* icon badge */
+.shop-now h2 span{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:55px;
+  height:55px;
+  border-radius:50%;
+  background: linear-gradient(135deg,#1fbf9f,#12a4d9);
+  margin-right:12px;
+  animation: iconPulse 2.5s infinite;
 }
 
-/* ================= TEXT ================= */
-.subscribe-now h2 {
-  font-size: 40px;
-  font-weight: 700;
-  color: #ffffff;
-  margin-bottom: 12px;
+/* text */
+.shop-now p{
+  font-size:19px;
+  color:#0e2b93;
+  line-height:1.9;
+  margin-bottom:38px;
 }
 
-.subscribe-now h2 span {
-  color: #1fbf9f;
-  margin-right: 10px;
+/* button */
+.shop-btn{
+  display:inline-block;
+  padding:16px 48px;
+  font-size:19px;
+  font-weight:600;
+  color:#fff;
+  text-decoration:none;
+  border-radius:60px;
+  background: linear-gradient(135deg,#1fbf9f,#12a4d9);
+  box-shadow: 0 15px 35px rgba(18,164,217,0.45);
+  animation: btnGlow 3s ease-in-out infinite;
 }
 
-.subscribe-now p {
-  color: #cfd6ff;
-  font-size: 15px;
-  line-height: 1.7;
-  margin-bottom: 30px;
+/* ================= ANIMATIONS ================= */
+
+@keyframes waveMove{
+  0%{transform:rotate(0deg);}
+  100%{transform:rotate(360deg);}
 }
 
-/* ================= FORM ================= */
-.subscribe-now form {
-  display: flex;
-  align-items: center;
-  gap: 12px;
+@keyframes dotMove{
+  0%{background-position:0 0;}
+  100%{background-position:300px 300px;}
 }
 
-.subscribe-now form input {
-  flex: 1;
-  height: 54px;
-  border-radius: 30px;
-  background: rgba(255, 255, 255, 0.12);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  color: #ffffff;
-  padding: 0 16px;
-  font-size: 15px;
-  outline: none;
+@keyframes cardFloat{
+  0%{transform:translateY(0);}
+  50%{transform:translateY(-12px);}
+  100%{transform:translateY(0);}
 }
 
-.subscribe-now form input::placeholder {
-  color: #b8c0ff;
+@keyframes btnGlow{
+  0%{box-shadow:0 0 15px rgba(31,191,159,0.4);}
+  50%{box-shadow:0 0 35px rgba(18,164,217,0.8);}
+  100%{box-shadow:0 0 15px rgba(31,191,159,0.4);}
 }
 
-.subscribe-now form button {
-  height: 54px;
-  padding: 0 30px;
-  border-radius: 30px;
-  background: linear-gradient(135deg, #1fbf9f, #12a4d9);
-  color: #ffffff;
-  border: none;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.3s ease;
+@keyframes iconPulse{
+  0%{transform:scale(1);}
+  50%{transform:scale(1.15);}
+  100%{transform:scale(1);}
 }
 
-.subscribe-now form button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 12px 28px rgba(31, 191, 159, 0.45);
+/* ================= RESPONSIVE ================= */
+@media(max-width:768px){
+  .shop-now h2{font-size:34px;}
+  .shop-now p{font-size:16px;}
+  .shop-now .subscribe-now{padding:50px 25px;}
 }
-
 
 
 .customer_section .customer_avarage {
