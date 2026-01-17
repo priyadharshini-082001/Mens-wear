@@ -4607,8 +4607,8 @@ footer .footer_end p a {
   z-index: 2;
 }
 
-.breadcrumb-section .breadcrumb-content h2 {
-  font-size: 32px;
+.breadcrumb-section .breadcrumb-content  a  {
+  font-size:25px;
   font-weight: 700;
   margin: 0;
   color: #fff;
